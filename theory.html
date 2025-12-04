@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Theory: Attractors vs Fluctuators | Sports Attractors</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Outfit:wght@700;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .comparison-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 40px 0;
+            background: rgba(255, 255, 255, 0.03);
+            border-radius: 8px;
+            overflow: hidden;
+        }
+
+        .comparison-table th,
+        .comparison-table td {
+            padding: 20px;
+            text-align: left;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .comparison-table th {
+            background: rgba(0, 255, 204, 0.1);
+            color: var(--primary-color);
+            font-size: 1.2rem;
+        }
+
+        .comparison-table td {
+            color: #ccc;
+        }
+
+        .concept-box {
+            background: rgba(255, 255, 255, 0.05);
+            padding: 40px;
+            border-radius: 10px;
+            margin-bottom: 40px;
+            border-left: 4px solid var(--primary-color);
+        }
+
+        .concept-box.fluctuator {
+            border-left-color: var(--secondary-color);
+        }
+
+        .concept-title {
+            font-size: 2rem;
+            margin-bottom: 20px;
+            color: #fff;
+        }
+
+        .concept-title span {
+            color: var(--primary-color);
+        }
+
+        .concept-box.fluctuator .concept-title span {
+            color: var(--secondary-color);
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">SPORTS <span>ATTRACTORS</span></div>
+                <div class="nav-links">
+                    <a href="index.html">Home</a>
+                    <a href="sprinting.html">Sprinting</a>
+                    <a href="baseball.html">Baseball</a>
+                    <a href="soccer.html">Soccer</a>
+                    <a href="volleyball.html">Volleyball</a>
+                    <a href="basketball.html">Basketball</a>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero" style="height: 50vh;">
+        <div class="hero-content">
+            <h1>理論 (THEORY)</h1>
+            <p>アトラクターとフラクチュエーター。<br>動作の「本質」と「個性」を理解する。</p>
+        </div>
+    </section>
+
+    <section class="container">
+        <!-- Attractors -->
+        <div class="concept-box">
+            <h2 class="concept-title">アトラクターとは？ <span>(What is an Attractor?)</span></h2>
+            <p>アトラクター（Attractor）とは、動作の中で「安定的」かつ「普遍的」な要素を指します。トップアスリートに共通して見られる動きであり、効率的なエネルギー伝達や怪我の予防に不可欠な「ルール」のようなものです。
+            </p>
+            <ul style="margin-top: 20px; list-style: disc; padding-left: 20px; color: #aaa;">
+                <li><strong>普遍性：</strong> 競技レベルが高い選手ほど共通して持っている。</li>
+                <li><strong>安定性：</strong> 外部環境が変化しても崩れにくい。</li>
+                <li><strong>重要性：</strong> これが欠けるとパフォーマンスが低下し、怪我のリスクが高まる。</li>
+            </ul>
+        </div>
+
+        <!-- Fluctuators -->
+        <div class="concept-box fluctuator">
+            <h2 class="concept-title">フラクチュエーターとは？ <span>(What is a Fluctuator?)</span></h2>
+            <p>フラクチュエーター（Fluctuator）とは、動作の中で「変動的」かつ「個人的」な要素を指します。個々の骨格、筋力、プレースタイル、あるいはその場の状況に合わせて変化する「スタイル」や「個性」の部分です。
+            </p>
+            <ul style="margin-top: 20px; list-style: disc; padding-left: 20px; color: #aaa;">
+                <li><strong>多様性：</strong> 選手によって形が異なる（例：バッティングの構え）。</li>
+                <li><strong>適応性：</strong> 状況に応じて柔軟に変化する。</li>
+                <li><strong>注意点：</strong> ここを無理に矯正すると、選手の自然な動きを阻害する可能性がある。</li>
+            </ul>
+        </div>
+
+        <!-- Comparison -->
+        <div class="section-title">
+            <h2>主な違い <span>(Key Differences)</span></h2>
+        </div>
+        <table class="comparison-table">
+            <thead>
+                <tr>
+                    <th>項目 (Feature)</th>
+                    <th>Attractor (本質)</th>
+                    <th>Fluctuator (変動)</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>役割</td>
+                    <td>エネルギー効率、安全性、出力の最大化</td>
+                    <td>環境適応、微調整、個人のリズム</td>
+                </tr>
+                <tr>
+                    <td>コーチング</td>
+                    <td>徹底的に指導・修正すべき</td>
+                    <td>個性を尊重し、過度な修正は避けるべき</td>
+                </tr>
+                <tr>
+                    <td>例（野球）</td>
+                    <td>ヒップショルダーセパレーション（捻転差）</td>
+                    <td>スタンスの幅、バットの構え方</td>
+                </tr>
+                <tr>
+                    <td>例（走動作）</td>
+                    <td>接地時の足首の剛性</td>
+                    <td>腕振りの高さ、指先の形</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <!-- Training Principles -->
+        <div class="section-title">
+            <h2>トレーニングの原則 <span>(Training Principles)</span></h2>
+        </div>
+        <div class="grid">
+            <div class="card">
+                <h3>1. アトラクターを優先 (Prioritize Attractors)</h3>
+                <p>まずはアトラクター（土台）を構築することに集中します。土台が不安定なまま、細かいテクニック（フラクチュエーター）を修正しても効果は薄いからです。</p>
+            </div>
+            <div class="card">
+                <h3>2. 変動を許容 (Allow Fluctuation)</h3>
+                <p>フラクチュエーターは「自己組織化」に任せます。アトラクターさえ守れていれば、他の部分は選手自身が最も動きやすい形を自然に見つけ出します。</p>
+            </div>
+            <div class="card">
+                <h3>3. 制約主導アプローチ (Constraints-Led Approach)</h3>
+                <p>言葉で細かく指示するのではなく、ドリルや環境（制約）を設定することで、自然と理想的な動き（アトラクター）が導き出されるように指導します。</p>
+            </div>
+        </div>
+        <!-- Advanced Concepts -->
+        <div class="section-title" style="margin-top: 80px;">
+            <h2>発展的な概念 <span>(Advanced Concepts)</span></h2>
+        </div>
+        <div class="grid">
+            <div class="card" style="grid-column: span 2;">
+                <h3>1. Perception-Action Coupling (知覚と行為の結合)</h3>
+                <p>「動き」は単独で存在するのではなく、環境からの「情報（視覚など）」とセットです。例えば、コーンを避けるだけのドリブル練習が実戦で生きにくいのは、そこに「相手の動きを見て判断する」という知覚プロセスが欠けているからです。
+                </p>
+                <div style="margin-top: 15px; padding: 15px; background: rgba(255,255,255,0.05); border-radius: 8px;">
+                    <strong style="color: var(--secondary-color);">Application:</strong>
+                    ドリルには常に「判断」や「反応」の要素（パートナーの動き、合図など）を組み込むべきです。
+                </div>
+            </div>
+            <div class="card" style="grid-column: span 2;">
+                <h3>2. Repetition without Repetition (繰り返しのない繰り返し)</h3>
+                <p>ベルンシュタインの原理です。ロボットのように全く同じ軌道を繰り返すのではなく、「同じ結果（ゴール）」を達成するために、毎回微妙に異なる動きで微調整を繰り返すことが、真の安定性（ロバストネス）を生みます。
+                </p>
+                <div style="margin-top: 15px; padding: 15px; background: rgba(255,255,255,0.05); border-radius: 8px;">
+                    <strong style="color: var(--secondary-color);">Application:</strong>
+                    練習環境にわずかな変化（地面の硬さ、ボールの空気圧、開始位置など）を持たせ、適応力を養います。
+                </div>
+            </div>
+            <div class="card" style="grid-column: span 2;">
+                <h3>3. Degrees of Freedom (自由度の凍結と解放)</h3>
+                <p>初心者は関節を固めて（自由度を凍結して）動きを制御しようとしますが、熟練者は関節を緩めて（解放して）連動を使います。ガチガチの動きから、ムチのようなしなやかな動きへの変化は、この「自由度の解放」プロセスです。
+                </p>
+                <div style="margin-top: 15px; padding: 15px; background: rgba(255,255,255,0.05); border-radius: 8px;">
+                    <strong style="color: var(--secondary-color);">Application:</strong>
+                    最初は動きを制限（凍結）して成功体験をさせ、徐々に制限を解除して複雑な連動（解放）へと導きます。
+                </div>
+            </div>
+            <div class="card" style="grid-column: span 2;">
+                <h3>4. Differential Learning (差分学習)</h3>
+                <p>「正しいフォーム」を反復するのではなく、あえて極端なエラーやノイズ（変動）を大量に経験させる手法です。身体はその変動の中から、自分にとって最適な解（アトラクター）を無意識に補間・探索します。</p>
+                <div style="margin-top: 15px; padding: 15px; background: rgba(255,255,255,0.05); border-radius: 8px;">
+                    <strong style="color: var(--secondary-color);">Application:</strong>
+                    疲労困憊の状態、不安定な足場、左右非対称な動きなど、あえて「変な動き」を練習に取り入れ、適応力を爆発的に高めます。
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Sports Attractors. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
